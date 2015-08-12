@@ -21,6 +21,7 @@ inline double sqr(double x)
 	return x * x;
 }
 
+// Sigmoid function
 inline double ActivateFunction(double x)
 {
 	return 1.0 / (1.0 + exp(-x / T));
