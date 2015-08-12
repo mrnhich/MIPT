@@ -143,6 +143,7 @@ void testParameters()
 	delete neural_network;
 }
 
+// print time for clock c >> format: hour(s) : minute(s) : second(s) : milisecond(s)
 void printTime(int c)
 {
 	long long clock_per_ms = (long long) CLOCKS_PER_SEC / 1000;
