@@ -56,8 +56,8 @@ void test()
     layer_size.push_back(vector_space);
     layer_size.push_back(2 * vector_space);
     autoencoder = new Autoencoder(3, layer_size);
-    autoencoder->train("//home//mhle//Samsung//MailClassification_2015_06_26//Stanford//GLOVE//input.txt", 100);
-    autoencoder->saveParametersToFile("//home//mhle//Samsung//MailClassification_2015_06_26//Stanford//GLOVE//parameters.txt");
+    autoencoder->train("input.txt", 100);
+    autoencoder->saveParametersToFile("parameters.txt");
 }
 
 int main(int argc, char *argv[])
