@@ -1,0 +1,110 @@
+﻿<html>
+	<head>
+    		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    		<!--[if IE]><script type="text/javascript" src="javascript/excanvas.js"></script><![endif]-->
+    		<script type="text/javascript" src='javascript/SurfacePlot.js'></script>
+    		<script type="text/javascript" src='javascript/ColourGradient.js'></script>
+    		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+    		<title>Data Visualization</title>
+	</head>
+
+ 	<body>
+		<div>
+			<div style="width : 50%; float : left">
+				<div>
+					<input type='file' accept='text/plain' onchange="setUp(event, elementId = 'surfacePlotDiv_1')">
+				</div>
+      			<div id='surfacePlotDiv_1'></div>
+			</div>
+		
+			<div style="width : 50%; float : left">
+				<div>
+					<input type='file' accept='text/plain' onchange="setUp(event, elementId = 'surfacePlotDiv_2')">
+				</div>
+  				<div id='surfacePlotDiv_2'></div>
+			</div>
+		<div>
+
+		<script type='text/javascript'>
+			
+			google.load("visualization", "1");
+    		function setUp(event, elementId)
+    		{
+    			var minR = 0;
+    			var maxR = 6.3;
+    			
+      			var numRows = 50;
+      			var numCols = 50;
+            
+      			var tooltipStrings = new Array();
+      			var data = new google.visualization.DataTable();
+            
+      			for (var i = 0; i <= numCols; i++)
+      			{
+        				data.addColumn('number', 'col'+i);
+      			}
+            
+      			data.addRows(numRows + 1);
+      
+  				var d = 360 / numRows;
+      			var idx = 0;
+				var dxy = (maxR - minR) / numRows;
+
+				var input = event.target;
+				var reader = new FileReader();
+				reader.onload = function(event)
+				{
+	  				var reader = event.target;
+					var text = reader.result;
+					var lines = text.split("\n");
+	  					
+					//document.getElementById("output").innerHTML = lines[0];
+					//document.getElementById("output").innerHTML = elementId;
+
+					for (var iter = 1; iter < lines.length; iter++)
+					{
+						var line = lines[iter];
+						var coordinates = line.split(" ");
+						if (coordinates.length == 3)
+						{
+							var x = parseFloat(coordinates[0]);	
+							var y = parseFloat(coordinates[1]);	
+							var z = parseFloat(coordinates[2]);
+							var i = Math.ceil((x - minR) / dxy);
+							var j = Math.ceil((y - minR) / dxy);
+							data.setValue(i, j, z);
+							tooltipStrings[i * numCols + j] = "x:" + x + ", y:" + y + " = " + z;
+						}
+					}
+     				//var surfacePlot = new greg.ross.visualisation.SurfacePlot(document.getElementById("surfacePlotDiv"));
+     				var surfacePlot = new greg.ross.visualisation.SurfacePlot(document.getElementById(elementId));
+
+     				// Don't fill polygons in IE. It's too slow.
+     				var fillPly = true;
+
+     				// Define a colour gradient.
+     				var colour1 = {red:0, green:0, blue:255};
+     				var colour2 = {red:0, green:255, blue:255};
+     				var colour3 = {red:0, green:255, blue:0};
+     				var colour4 = {red:255, green:255, blue:0};
+     				var colour5 = {red:255, green:0, blue:0};
+     				var colours = [colour1, colour2, colour3, colour4, colour5];
+
+     				// Axis labels.
+     				var xAxisHeader = "X";
+     				var yAxisHeader = "Y";
+     				var zAxisHeader = "Z";
+
+     				var options = {xPos: 50, yPos: 50, width: 500, height: 500, colourGradient: colours,
+       						fillPolygons: fillPly, tooltips: tooltipStrings, xTitle: xAxisHeader,
+       						yTitle: yAxisHeader, zTitle: zAxisHeader, restrictXRotation: false};
+            
+    				surfacePlot.draw(data, options);
+				};
+				reader.readAsText(input.files[0]);
+			};
+		</script>
+
+	</body>
+</html> 
