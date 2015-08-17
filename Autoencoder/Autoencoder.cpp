@@ -9,7 +9,7 @@ Autoencoder::Autoencoder(size_t number_of_layers, vector<size_t> layer_size)
     w.clear();
     N = number_of_layers;
 
-    for (size_t layer = 0; layer < N - 1; ++layer)
+    for (size_t layer = 0; layer < N; ++layer)
     {
         vector<double> _y = vector<double>(layer_size.at(layer) + 1, 0.0);
         _y.at(layer_size.at(layer)) = 1.0;
@@ -92,18 +92,41 @@ Autoencoder::~Autoencoder()
 
 void Autoencoder::prepare()
 {
+    bool debug = false;
+    if (debug)
+    {
+        wcout << "prepare" << endl;
+        wcout << "N = " << N << endl;
+    }
     dw.clear();
     for (size_t layer = 0; layer < N - 1; ++layer)
     {
+        if (debug)
+        {
+            wcout << "layer = " << layer << endl;
+        }
         vector<vector<double> > _dw = vector<vector<double> >(y.at(layer).size() + 1,
                                       vector<double>(y.at(layer + 1).size(), 0));
         dw.push_back(_dw);
     }
+    if (debug)
+    {
+        wcout << "prepare: 1" << endl;
+    }
     fill(sparsity_parameters.begin(), sparsity_parameters.end(), 0);
+    if (debug)
+    {
+        wcout << "prepare ok" << endl;
+    }
 }
 
 void Autoencoder::calculateOutput(shared_ptr<vector<double> > input)
 {
+    bool debug = false;
+    if (debug)
+    {
+        wcout << "calculateOutput..." << endl;
+    }
     // Input layer
     for (size_t j = 0; j < input->size(); ++j)
     {
@@ -127,11 +150,25 @@ void Autoencoder::calculateOutput(shared_ptr<vector<double> > input)
 
 void Autoencoder::backPropagation(shared_ptr<vector<double> > target)
 {
-    // dy, output layer
-    for (size_t j = 0; j < y.at(N - 1).size(); ++j)
+    bool debug = false;
+    if (debug)
     {
+        wcout << "backPropagation..." << endl;
+    }
+    // dy, output layer
+    for (size_t j = 0; j < y.at(N - 1).size() - 1; ++j)
+    {
+        if (debug)
+        {
+            wcout << "backPropagation: 1.1 j = " << j << endl;
+        }
         dy.at(N - 1).at(j) = -(target->at(j) - y.at(N - 1).at(j))
                              * tanh_derivative(y.at(N - 1).at(j));
+    }
+
+    if (debug)
+    {
+        wcout << "backPropagation: 1" << endl;
     }
 
     // dy, hidden layers
@@ -154,6 +191,11 @@ void Autoencoder::backPropagation(shared_ptr<vector<double> > target)
         }
     }
 
+    if (debug)
+    {
+        wcout << "backPropagation: 2" << endl;
+    }
+
     // update dw
     for (size_t layer = N - 2; layer > 0; --layer)
     {
@@ -166,29 +208,59 @@ void Autoencoder::backPropagation(shared_ptr<vector<double> > target)
             }
         }
     }
+
+    if (debug)
+    {
+        wcout << "backPropagation: 3" << endl;
+    }
 }
 
 void Autoencoder::updateWeight(int m)
 {
+    bool debug = false;
+    if (debug)
+    {
+        wcout << "updateWeight..." << endl;
+    }
     for (size_t layer = 1; layer < N; ++layer)
     {
+        if (debug)
+        {
+            wcout << "layer = " << layer << endl;
+        }
         for (size_t j2 = 0; j2 < y.at(layer).size() - 1; ++j2)
         {
             // Neurons
             for (size_t j1 = 0; j1 < y.at(layer - 1).size() - 1; ++j1)
             {
-                w.at(layer).at(j1).at(j2) -= Alpha * (dw.at(layer).at(j1).at(j2) / m
-                                               + Lambda * w.at(layer).at(j1).at(j2));
+                if (debug)
+                {
+                    wcout << "j1 = " << j1 << "; j2 = " << j2 << endl;
+                }
+                w.at(layer - 1).at(j1).at(j2) -= Alpha * (dw.at(layer - 1).at(j1).at(j2) / m + Lambda * w.at(layer - 1).at(j1).at(j2));
             }
             // Bias
-            w.at(layer).at(y.at(layer - 1).size() - 1).at(j2) -= Alpha
-                    * (dw.at(layer).at(y.at(layer - 1).size() - 1).at(j2) / m);
+            if (debug)
+            {
+                wcout << "updateWeight:1" << endl;
+            }
+            w.at(layer - 1).at(y.at(layer - 1).size() - 1).at(j2) -= Alpha
+                    * (dw.at(layer - 1).at(y.at(layer - 1).size() - 1).at(j2) / m);
+            if (debug)
+            {
+                wcout << "updateWeight:2" << endl;
+            }
         }
+    }
+    if (debug)
+    {
+        wcout << "updateWeight ok." << endl;
     }
 }
 
-void Autoencoder::trainFile(string file_path, bool calculate_sparsity)
+void Autoencoder::trainFile(string file_path, bool calculate_sparsity, int iteration)
 {
+    bool debug = true;
     int m; // number of samples
     shared_ptr<vector<double> > input
             = make_shared<vector<double> >(y.at(0).size(), 0);
@@ -196,9 +268,14 @@ void Autoencoder::trainFile(string file_path, bool calculate_sparsity)
     ifstream fi;
     fi.open(file_path.c_str(), ios::in);
     fi >> m;
+//    m = 2000;
     double x;
     for (int i = 0; i < m; ++i)
     {
+        if (debug && i % 10000 == 0)
+        {
+            wcout << iteration << "." << i << endl;
+        }
         for (size_t j = 0; j < y.at(0).size(); ++j)
         {
             fi >> x;
@@ -233,11 +310,20 @@ void Autoencoder::trainFile(string file_path, bool calculate_sparsity)
 
 void Autoencoder::train(string file_path, int iterations)
 {
+    bool debug = true;
     for (int i = 0; i < iterations; ++i)
     {
+        if (debug)
+        {
+            wcout << "Iteration: " << i + 1 << endl;
+        }
         prepare();
-        trainFile(file_path, true); // calculate sparsity parameters
-        trainFile(file_path, false); // update weight
+        trainFile(file_path, true, i + 1); // calculate sparsity parameters
+        trainFile(file_path, false, i + 1); // update weight
+
+        // Server
+        string tmp_path = "Autoencoder_parameters_tmp//autoencoder_params_" + std::to_string(i) + ".txt";
+        this->saveParametersToFile(tmp_path);
     }
 }
 

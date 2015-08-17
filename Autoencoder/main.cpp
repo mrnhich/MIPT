@@ -27,37 +27,40 @@ void printTime(int c)
 	{
 		z = 1;
 	}
-	cout << "====================================================" << endl;
-	cout << "Time = ";
+    wcout << "====================================================" << endl;
+    wcout << "Time = ";
 	if (z >= 3)
 	{
-		cout << c / clock_per_hour << " hour(s) ";
+        wcout << c / clock_per_hour << " hour(s) ";
 		c %= clock_per_hour;
 	}
 	if (z >= 2)
 	{
-		cout << c / clock_per_minute << " minute(s) ";
+        wcout << c / clock_per_minute << " minute(s) ";
 		c %= clock_per_minute;
 	}
 	if (z >= 1)
 	{
-		cout << c / clock_per_second << " second(s) ";
+        wcout << c / clock_per_second << " second(s) ";
 		c %= clock_per_second;
 	}
-	cout << c / clock_per_ms << " ms(s)" << endl;
-	cout << "====================================================" << endl;
+    wcout << c / clock_per_ms << " ms(s)" << endl;
+    wcout << "====================================================" << endl;
 }
 
 void test()
 {
-    size_t vector_space = 50;
-    vector<size_t> layer_size;
-    layer_size.push_back(2 * vector_space);
-    layer_size.push_back(vector_space);
-    layer_size.push_back(2 * vector_space);
-    autoencoder = new Autoencoder(3, layer_size);
-    autoencoder->train("input.txt", 100);
-    autoencoder->saveParametersToFile("parameters.txt");
+//    size_t vector_space = 50;
+//    vector<size_t> layer_size;
+//    layer_size.push_back(2 * vector_space);
+//    layer_size.push_back(vector_space);
+//    layer_size.push_back(2 * vector_space);
+//    autoencoder = new Autoencoder(3, layer_size);
+
+    // Server
+    autoencoder = new Autoencoder("Autoencoder_parameters_tmp//autoencoder_params_0.txt");
+    autoencoder->train("autoencoder_traning_set.txt", 1000);
+    autoencoder->saveParametersToFile("autoencoder_parameters.txt");
 }
 
 int main(int argc, char *argv[])

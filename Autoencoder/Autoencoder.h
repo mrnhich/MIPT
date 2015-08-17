@@ -13,8 +13,8 @@ using namespace std;
 namespace ___autoencoder___ {
 
 static double Alpha = 0.1;
-static double Rho = 0.2;
-static double Beta = 0.3;
+static double Rho = 0.05;
+static double Beta = 0.1;
 static double Lambda = 0.001;
 static size_t hidden_layer = 1;
 
@@ -53,7 +53,7 @@ public:
     void calculateOutput(shared_ptr<vector<double> > input);
     void backPropagation(shared_ptr<vector<double> > target);
     void updateWeight(int m);
-    void trainFile(string file_path, bool calculate_sparsity);
+    void trainFile(string file_path, bool calculate_sparsity, int iteration);
     void train(string file_path, int iterations);
     void saveParametersToFile(string file_path);
 
