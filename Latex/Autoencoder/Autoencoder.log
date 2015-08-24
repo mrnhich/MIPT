@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.18)  24 AUG 2015 13:28
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.24)  24 AUG 2015 18:30
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.24)  24 AUG 2015 18:54
->>>>>>> origin/master
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.24)  24 AUG 2015 20:00
 entering extended mode
 **C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/Autoencoder.tex
 (C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/Autoencoder.tex
@@ -697,13 +689,13 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (7.06146pt too wide) in paragraph at lines 25--26
+Overfull \hbox (7.06146pt too wide) in paragraph at lines 27--28
 []\T2A/cmr/m/n/12 В от-ли-чие от мно-го-знач-ных слов лек-си-че-ские омо-ни-мы 
 не об-ла-да-ют предметно-
  []
 
 
-Overfull \hbox (11.62897pt too wide) in paragraph at lines 33--34
+Overfull \hbox (11.62897pt too wide) in paragraph at lines 35--36
 []\T2A/cmr/m/n/12 Самый из-вест-ные мо-де-ли пред-став-ле-ния сло-ва как век-то
 р пред-став-ле-ны Mikolov
  []
@@ -714,23 +706,23 @@ Overfull \hbox (11.62897pt too wide) in paragraph at lines 33--34
 <cbow.png, id=7, 319.94531pt x 200.24812pt>
 File: cbow.png Graphic file (type png)
  <use cbow.png>
-Package pdftex.def Info: cbow.png used on input line 37.
+Package pdftex.def Info: cbow.png used on input line 39.
 (pdftex.def)             Requested size: 256.0748pt x 160.2751pt.
 
 <cbow2.png, id=8, 549.55313pt x 302.63063pt>
 File: cbow2.png Graphic file (type png)
  <use cbow2.png>
-Package pdftex.def Info: cbow2.png used on input line 49.
+Package pdftex.def Info: cbow2.png used on input line 51.
 (pdftex.def)             Requested size: 256.0748pt x 141.01732pt.
  [2 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/cbow.png> <C:/Users
 /admin/Documents/GitHub/MIPT/Latex/Autoencoder/cbow2.png>]
 <translate2.png, id=12, 416.30531pt x 284.56313pt>
 File: translate2.png Graphic file (type png)
  <use translate2.png>
-Package pdftex.def Info: translate2.png used on input line 59.
+Package pdftex.def Info: translate2.png used on input line 62.
 (pdftex.def)             Requested size: 398.33858pt x 272.29605pt.
 
-Overfull \hbox (1.02933pt too wide) in paragraph at lines 65--66
+Overfull \hbox (1.02933pt too wide) in paragraph at lines 68--69
 []\T2A/cmr/m/n/12 Один хо-ро-ший при-мер это дву-языч-ный сло-во вло-же-ние, пр
 о-из-во-дит-ся в Socher
  []
@@ -738,98 +730,47 @@ Overfull \hbox (1.02933pt too wide) in paragraph at lines 65--66
 <translate.png, id=13, 461.47406pt x 347.79938pt>
 File: translate.png Graphic file (type png)
  <use translate.png>
-Package pdftex.def Info: translate.png used on input line 71.
+Package pdftex.def Info: translate.png used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 214.4393pt.
-<<<<<<< HEAD
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/translate2.png>]
-=======
  [3 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/translate2.png>]
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
 <mnn.png, id=17, 401.5pt x 283.0575pt>
 File: mnn.png Graphic file (type png)
  <use mnn.png>
-Package pdftex.def Info: mnn.png used on input line 87.
-<<<<<<< HEAD
-(pdftex.def)             Requested size: 341.43306pt x 240.72525pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/translate.png>]
-[5 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/mnn.png (PNG cop
-y)>] <autoencoder.png, id=32, 401.5pt x 446.66875pt>
-=======
+Package pdftex.def Info: mnn.png used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 200.60509pt.
  [4 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/translate.png> <C:/
 Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/mnn.png (PNG copy)>]
 <autoencoder.png, id=21, 401.5pt x 446.66875pt>
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
 File: autoencoder.png Graphic file (type png)
  <use autoencoder.png>
-Package pdftex.def Info: autoencoder.png used on input line 141.
+Package pdftex.def Info: autoencoder.png used on input line 144.
 (pdftex.def)             Requested size: 284.52756pt x 316.5577pt.
  [5]
 [6 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/autoencoder.png (PNG
  copy)>]
-Overfull \hbox (3.6047pt too wide) in paragraph at lines 179--179
+Overfull \hbox (3.6047pt too wide) in paragraph at lines 182--182
 []\T2A/cmr/bx/n/17.28 Рекурсивный ав-то-эн-ко-дер и век-тор-ное пред-став-
  []
 
-<<<<<<< HEAD
-[6 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/autoencoder.png 
-(PNG copy)>] [7]
-Overfull \hbox (2.99947pt too wide) in paragraph at lines 201--202
-\T2A/cmr/m/n/12 [1] [Bengio et al.2003] Yoshua Bengio, Rejean Ducharme, Pascal 
-Vincent, and Christian
- []
-
-[8] (C:\Users\diepn_000\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux
-)
-=======
 [7] <RAE.png, id=41, 507.8975pt x 358.33875pt>
 File: RAE.png Graphic file (type png)
  <use RAE.png>
-Package pdftex.def Info: RAE.png used on input line 193.
+Package pdftex.def Info: RAE.png used on input line 196.
 (pdftex.def)             Requested size: 341.43306pt x 240.90042pt.
  [8 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/RAE.png>] [9]
 (C:\Users\admin\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux)
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3561 strings out of 493921
- 43400 string characters out of 3144876
- 109875 words of memory out of 3000000
- 6798 multiletter control sequences out of 15000+200000
+ 3565 strings out of 493921
+ 43449 string characters out of 3144876
+ 109891 words of memory out of 3000000
+ 6802 multiletter control sequences out of 15000+200000
  11101 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
-<<<<<<< HEAD
- 27i,12n,24p,4380b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
-0\labx1440.pk> <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unk
-nown\unknown\dpi600\larm1200.pk> <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk><C:/Users/diepn_000/Documents/setup
-s/LatexRun/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/diepn_000/Docume
-nts/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/diepn_0
-00/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
-/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Autoencoder.pdf (8 pages, 690934 bytes).
-PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
-=======
- 27i,12n,24p,1859b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,24p,4435b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
 bx1440.pk> <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unk
 nown\dpi600\larm1200.pk> <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
@@ -843,14 +784,9 @@ ts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb>
-Output written on Autoencoder.pdf (9 pages, 726459 bytes).
+Output written on Autoencoder.pdf (9 pages, 729152 bytes).
 PDF statistics:
-<<<<<<< HEAD
- 268 PDF objects out of 1000 (max. 8388607)
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
-=======
- 273 PDF objects out of 1000 (max. 8388607)
->>>>>>> origin/master
+ 278 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

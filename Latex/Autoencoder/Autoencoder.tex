@@ -11,7 +11,9 @@
 \begin{document}
 
 \def\dd#1#2{\frac{\partial#1}{\partial#2}}
+
 \section{Введение}
+
 В лексической системе русского языка есть слова, которые звучат одинаково, но имеют совершенно разные значения. Такие слова называются лексическими омонимами, а звуковое и грамматическое совпадение разных языковых единиц, которые семантически не связаны друг с другом, называется омонимией.
 
 Например:
@@ -54,12 +56,8 @@ SKIP-GRAM модель – Использует слово, что бы пред
 
 Эти модели могут использоваться во многих задачах анализа естественного языка, таких как классификация документов, распознавание спама или машинный перевод.
 
-<<<<<<< HEAD
 На рисунке 3, визуализировали векторы для чисел и животных на английском и испанском языках, и он может быть легко видеть, что эти понятия имеют схожие геометрические композиции. Причина в том, что, как и все распространенные языки поделиться понятия, которые основаны на реальном мире
-	\begin{figure}[h]
-=======
 	\begin{figure}[H]
->>>>>>> 1205ca69110b0b0a03b521bdd400dd7ae1666ba1
 		\noindent\centering{
 			\includegraphics[width=140mm]{translate2.png}	
 		}
@@ -212,6 +210,7 @@ K-means является одним из простейших алгоритмо
 	\begin{align}
 		J(V) = \sum_{j}^{c}\sum_{j}^{c_i}(||x_i-v_i||)^2
 	\end{align}
+
 \subsection{Маркировка значений слова}
 
 В первых получить все возможные векторы слов, затем используемы их, чтобы построить векторы контекстов с применением автоэнкодер.
@@ -221,27 +220,22 @@ K-means является одним из простейших алгоритмо
 Пример у нас есть миллион векторов описания о слове Замок, Выпольняем вычисления К-Means для этих веторов. В результате, мы можем переписать кождое слово с его значением, так как замок1, замок2.
 
 Таким образом, все омонимии уже маркированы по значению, мы можем использавать эти резутаты длы задачи снятия омонимий.
-\section{Список Литературы}
 
-<<<<<<< HEAD
-[1] [Bengio et al.2003] Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. 2003. A neural probabilistic language model. In Journal of Machine Learning Research, pages 1137–1155.
-
-[2] Национальный корпус русского языка, www.ruscorpora.ru
-
-[3] [Socher et al.2013] Richard Socher, John Bauer, Christopher D. Manning, and Andrew Y. Ng. 2013. Parsing with compositional vector grammars. In ACL.
-
-[4] Exploiting Similarities among Languages for Machine Translation.
-
-[5] 
-=======
 \begin{thebibliography}{0}
-\bibitem{stanford1}
+\bibitem{Bengio}
+Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. 2003. A neural probabilistic language model. In Journal of Machine Learning Research, pages 1137–1155.
+\bibitem{Ruscorpora}
+Национальный корпус русского языка, www.ruscorpora.ru
+\bibitem{Socher1}
+Richard Socher, John Bauer, Christopher D. Manning, and Andrew Y. Ng. 2013. Parsing with compositional vector grammars. In ACL.
+\bibitem{MachineTranslation}
+Exploiting Similarities among Languages for Machine Translation.
+\bibitem{Stanford1}
 Stanford UFLDL tutorial, Multilayer neural networks
 \bibitem{stanford2}
 Stanford UFLDL tutorial, Autoencoders
-\bibitem{socher1}
-Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions, Socher et al., 2011
+\bibitem{Socher2}
+Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions, Richard Socher, Jeffrey Pennington, Eric H. Huang, Andrew Y. Ng, Christopher D. Manning, 2011
 \end{thebibliography}
->>>>>>> origin/master
 
 \end{document}
