@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.18)  28 AUG 2015 15:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.24)  28 AUG 2015 23:57
 entering extended mode
-**Autoencoder.tex
-(C:\Users\diepn_000\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.tex
+**C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/Autoencoder.tex
+(C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/Autoencoder.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\article.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\size12.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,24 +30,24 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\amsmath\amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\amsmath\amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\amsmath\amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\amsmath\amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\amsmath\amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -88,19 +88,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\inputenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\utf8.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\t1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -250,7 +250,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\ot1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -281,7 +281,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\omsenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -305,19 +305,19 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\babel\babel.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\00miktex\bblopts.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\babel\english.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\babel\babel.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count99
 \U@D=\dimen112
@@ -326,15 +326,15 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\babel\russianb.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\russianb.ldf"
 Language: russianb 2008/03/21 v1.1r Russian support from the babel system
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\cyrillic\t2aenc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\t2aenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
 File: t2aenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -525,52 +525,52 @@ File: t2aenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 ))
 Package babel Info: Making " an active character on input line 199.
 ))
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\base\fontenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\cyrillic\t2aenc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 LaTeX Font Info:    Redeclaring font encoding T2A on input line 42.
 )
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
 
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\cyrillic\t2acmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\graphics\graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\graphics\keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\graphics\graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\graphics\trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\00miktex\graphics.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\pdftex-def\pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\oberdiek\infwarerr.st
-y
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\oberdiek\ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
-) (C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\float\float.sty
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks22
@@ -578,18 +578,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box29
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\geometry\geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\oberdiek\ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\oberdiek\ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\generic\ifxetex\ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count102
@@ -605,8 +605,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen122
 \Gm@dimlist=\toks24
 
-(C:\Users\diepn_000\Documents\setups\LatexRun\tex\latex\geometry\geometry.cfg))
-(C:\Users\diepn_000\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\admin\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux
 
 LaTeX Warning: Label `figCurves' multiply defined.
 
@@ -624,18 +624,6 @@ LaTeX Warning: Label `figCurves' multiply defined.
 
 
 LaTeX Warning: Label `figCurves' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -652,7 +640,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- (C:\Users\diepn_000\Documents\setups\LatexRun\tex\context\base\supp-pdf.mkii
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen123
@@ -713,14 +701,14 @@ Overfull \hbox (11.62897pt too wide) in paragraph at lines 35--36
  []
 
 
-Overfull \hbox (10.40007pt too wide) in paragraph at lines 35--36
-\T2A/cmr/m/n/12 (2013a)[9] и ре-а-ли-за-ция мо-де-лей Word2vec[11] опуб-ли-ко-в
-а-на на сай-те Google project,
+Overfull \hbox (19.20074pt too wide) in paragraph at lines 35--36
+\T2A/cmr/m/n/12 project, ко-то-рая при-влек-ла боль-шое вни-ма-ние в по-след-ни
+е два го-да  это Continuous-
  []
 
 [1
 
-{C:/Users/diepn_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 <cbow.png, id=7, 319.94531pt x 200.24812pt>
 File: cbow.png Graphic file (type png)
  <use cbow.png>
@@ -732,8 +720,8 @@ File: cbow2.png Graphic file (type png)
  <use cbow2.png>
 Package pdftex.def Info: cbow2.png used on input line 51.
 (pdftex.def)             Requested size: 256.0748pt x 141.01732pt.
- [2 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/cbow.png> <C:/U
-sers/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/cbow2.png>]
+ [2 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/cbow.png> <C:/Users
+/admin/Documents/GitHub/MIPT/Latex/Autoencoder/cbow2.png>]
 <translate2.png, id=12, 416.30531pt x 284.56313pt>
 File: translate2.png Graphic file (type png)
  <use translate2.png>
@@ -750,24 +738,22 @@ File: translate.png Graphic file (type png)
  <use translate.png>
 Package pdftex.def Info: translate.png used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 214.4393pt.
- [3 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/translate2.png>
-]
+ [3 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/translate2.png>]
 <mnn.png, id=17, 401.5pt x 283.0575pt>
 File: mnn.png Graphic file (type png)
  <use mnn.png>
 Package pdftex.def Info: mnn.png used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 200.60509pt.
- [4 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/translate.png> 
-<C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/mnn.png (PNG copy)>
-]
+ [4 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/translate.png> <C:/
+Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/mnn.png (PNG copy)>]
 <autoencoder.png, id=21, 401.5pt x 446.66875pt>
 File: autoencoder.png Graphic file (type png)
  <use autoencoder.png>
 Package pdftex.def Info: autoencoder.png used on input line 144.
 (pdftex.def)             Requested size: 284.52756pt x 316.5577pt.
  [5]
-[6 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/autoencoder.png 
-(PNG copy)>]
+[6 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/autoencoder.png (PNG
+ copy)>]
 Overfull \hbox (3.6047pt too wide) in paragraph at lines 182--182
 []\T2A/cmr/bx/n/17.28 Рекурсивный ав-то-эн-ко-дер и век-тор-ное пред-став-
  []
@@ -777,46 +763,34 @@ File: RAE.png Graphic file (type png)
  <use RAE.png>
 Package pdftex.def Info: RAE.png used on input line 196.
 (pdftex.def)             Requested size: 341.43306pt x 240.90042pt.
- [8 <C:/Users/diepn_000/Documents/GitHub/MIPT/Latex/Autoencoder/RAE.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-[]\T2A/cmr/m/n/12 Stanford UFLDL tutorial, Multilayer neural networks
- []
-
-
-Overfull \hbox (116.84395pt too wide) in paragraph at lines 234--235
-[]\T2A/cmr/m/n/12 Stanford UFLDL tutorial, Autoencoders http://ufldl.stanford.e
-du/tutorial/unsupervised/Autoencoders/ 
- []
-
-[9] [10]
-(C:\Users\diepn_000\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux)
+ [8 <C:/Users/admin/Documents/GitHub/MIPT/Latex/Autoencoder/RAE.png>] [9] [10]
+(C:\Users\admin\Documents\GitHub\MIPT\Latex\Autoencoder\Autoencoder.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3576 strings out of 493921
- 44659 string characters out of 3140052
- 109896 words of memory out of 3000000
- 6810 multiletter control sequences out of 15000+200000
+ 3577 strings out of 493921
+ 43570 string characters out of 3144876
+ 109914 words of memory out of 3000000
+ 6814 multiletter control sequences out of 15000+200000
  11101 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,24p,4380b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
-0\labx1440.pk> <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unk
-nown\unknown\dpi600\larm1200.pk> <C:\Users\diepn_000\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk><C:/Users/diepn_000/Documents/setup
-s/LatexRun/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/diepn_000/Docume
-nts/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/diepn_0
-00/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
-/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/diepn_000/Documents/setups/LatexRun/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Autoencoder.pdf (10 pages, 732041 bytes).
+ 27i,12n,24p,4435b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
+bx1440.pk> <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unk
+nown\dpi600\larm1200.pk> <C:\Users\admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\lh\lh-t2a\dpi600\labx1728.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb>
+Output written on Autoencoder.pdf (10 pages, 732096 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
