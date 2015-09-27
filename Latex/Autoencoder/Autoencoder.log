@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.8)  23 SEP 2015 13:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.16)  28 SEP 2015 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,82 +734,67 @@ Overfull \hbox (7.06146pt too wide) in paragraph at lines 31--32
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.62897pt too wide) in paragraph at lines 39--40
-[]\T2A/cmr/m/n/12 Самый из-вест-ные мо-де-ли пред-став-ле-ния сло-ва как век-то
-р пред-став-ле-ны Mikolov
- []
-
-
-Overfull \hbox (19.20074pt too wide) in paragraph at lines 39--40
-\T2A/cmr/m/n/12 project, ко-то-рая при-влек-ла боль-шое вни-ма-ние в по-след-ни
-е два го-да ^^U это ^^PContinuous-
- []
-
 <cbow.png, id=10, 319.94531pt x 200.24812pt>
 File: cbow.png Graphic file (type png)
  <use cbow.png>
-Package pdftex.def Info: cbow.png used on input line 43.
+Package pdftex.def Info: cbow.png used on input line 41.
 (pdftex.def)             Requested size: 256.0748pt x 160.2751pt.
 
 <cbow2.png, id=11, 549.55313pt x 302.63063pt>
 File: cbow2.png Graphic file (type png)
  <use cbow2.png>
-Package pdftex.def Info: cbow2.png used on input line 55.
+Package pdftex.def Info: cbow2.png used on input line 51.
 (pdftex.def)             Requested size: 256.0748pt x 141.01732pt.
  [2 <./cbow.png>]
 <translate2.png, id=15, 416.30531pt x 284.56313pt>
 File: translate2.png Graphic file (type png)
  <use translate2.png>
-Package pdftex.def Info: translate2.png used on input line 66.
+Package pdftex.def Info: translate2.png used on input line 60.
 (pdftex.def)             Requested size: 398.33858pt x 272.29605pt.
 
-[3 <./cbow2.png>]
-Overfull \hbox (1.02933pt too wide) in paragraph at lines 72--73
-[]\T2A/cmr/m/n/12 Один хо-ро-ший при-мер это дву-языч-ный сло-во вло-же-ние, пр
-о-из-во-дит-ся в Socher
- []
-
-<translate.png, id=19, 461.47406pt x 347.79938pt>
+[3 <./cbow2.png>] <translate.png, id=19, 461.47406pt x 347.79938pt>
 File: translate.png Graphic file (type png)
- <use translate.png>
-Package pdftex.def Info: translate.png used on input line 78.
+
+<use translate.png>
+Package pdftex.def Info: translate.png used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 214.4393pt.
- [4 <./translate2.png>] <mnn.png, id=23, 401.5pt x 283.0575pt>
+ [4 <./translate2.png>]
+<mnn.png, id=23, 401.5pt x 283.0575pt>
 File: mnn.png Graphic file (type png)
  <use mnn.png>
-Package pdftex.def Info: mnn.png used on input line 94.
+Package pdftex.def Info: mnn.png used on input line 85.
 (pdftex.def)             Requested size: 284.52756pt x 200.60509pt.
- [5 <./translate.png> <./mnn.png (PNG copy)>]
-<autoencoder.png, id=27, 401.5pt x 446.66875pt>
+ [5 <./translate.png> <./mnn.png (PNG copy)>] <autoencoder.png, id=33, 401.5pt 
+x 446.66875pt>
 File: autoencoder.png Graphic file (type png)
- <use autoencoder.png>
-Package pdftex.def Info: autoencoder.png used on input line 148.
+
+<use autoencoder.png>
+Package pdftex.def Info: autoencoder.png used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 316.5577pt.
- [6]
-[7 <./autoencoder.png (PNG copy)>]
-Overfull \hbox (3.6047pt too wide) in paragraph at lines 186--186
+ [6] [7 <./autoencoder.png (PNG copy)>]
+Overfull \hbox (3.6047pt too wide) in paragraph at lines 171--171
 []\T2A/cmr/bx/n/17.28 Рекурсивный ав-то-эн-ко-дер и век-тор-ное пред-став-
  []
 
-[8] <RAE.png, id=47, 507.8975pt x 358.33875pt>
+<RAE.png, id=43, 507.8975pt x 358.33875pt>
 File: RAE.png Graphic file (type png)
  <use RAE.png>
-Package pdftex.def Info: RAE.png used on input line 200.
+Package pdftex.def Info: RAE.png used on input line 185.
 (pdftex.def)             Requested size: 341.43306pt x 240.90042pt.
- [9 <./RAE.png>]
-[10] [11] (./Autoencoder.aux)
+ [8] [9 <./RAE.png>]
+[10] (./Autoencoder.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3998 strings out of 493304
- 50418 string characters out of 6139872
- 126124 words of memory out of 5000000
- 7379 multiletter control sequences out of 15000+600000
+ 3996 strings out of 493304
+ 50397 string characters out of 6139871
+ 126114 words of memory out of 5000000
+ 7377 multiletter control sequences out of 15000+600000
  12727 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,23p,4380b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,23p,4573b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
@@ -823,10 +808,10 @@ amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 nts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Autoencoder.pdf (11 pages, 742542 bytes).
+Output written on Autoencoder.pdf (10 pages, 741817 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
